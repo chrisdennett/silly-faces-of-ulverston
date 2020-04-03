@@ -8,21 +8,27 @@
 
     <style>
       img {
-        width: 100%;
+        /* width: 100%; */
         border: black 10px solid;
       }
 
-      .face-card {
-        width: 200px;
-        display: inline-block;
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
       }
 
-      .best-card {
-        width: 210px;
+      .face-card {
+        width: 220px;
+      }
+
+      .face-card img {
+        width: 200px;
       }
 
       .best-card img {
         border: none;
+        width: 220px;
       }
 
       .face-card p {
@@ -50,21 +56,24 @@
       "troubled times".
     </p>
     <p>We've added these to kick it off.</p>
-    <div class="face-card">
-      <img src="images/Dot.jpg" />
-      <p>Dotty Dot</p>
-    </div>
-    <div class="face-card">
-      <img src="images/Jennie.jpg" />
-      <p>Jokey Jennie</p>
-    </div>
-    <div class="face-card">
-      <img src="images/Holly.jpg" />
-      <p>Unknown introvert</p>
-    </div>
-    <div class="face-card best-card">
-      <img src="images/chris-framed.jpg" />
-      <p>Coo-coo Chris BEST FACE OF THE WEEK</p>
+
+    <div class="cards">
+      <div class="face-card">
+        <img src="images/Dot.jpg" />
+        <p>Dotty Dot</p>
+      </div>
+      <div class="face-card">
+        <img src="images/Jennie.jpg" />
+        <p>Jokey Jennie</p>
+      </div>
+      <div class="face-card">
+        <img src="images/Holly.jpg" />
+        <p>Unknown introvert</p>
+      </div>
+      <div class="face-card best-card">
+        <img src="images/chris-framed.jpg" />
+        <p>Coo-coo Chris BEST FACE OF THE WEEK</p>
+      </div>
     </div>
   </body>
 </html>
