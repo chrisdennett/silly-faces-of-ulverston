@@ -8,7 +8,28 @@
 
     <style>
       img {
+        width: 100%;
+        border: black 10px solid;
+      }
+
+      .face-card {
         width: 200px;
+        display: inline-block;
+      }
+
+      .best-card {
+        width: 210px;
+      }
+
+      .best-card img {
+        border: none;
+      }
+
+      .face-card p {
+        text-align: center;
+      }
+      .biline {
+        font-size: 12px;
       }
     </style>
   </head>
@@ -17,6 +38,7 @@
     <h1>
       Silly Faces of Ulverston
     </h1>
+    <h2 class="biline">By Dot Dennett</h2>
     <h2>
       Show us your most ridiculous Faces
     </h2>
@@ -28,19 +50,21 @@
       "troubled times".
     </p>
     <p>We've added these to kick it off.</p>
-    <div>
+    <div class="face-card">
       <img src="images/Dot.jpg" />
       <p>Dotty Dot</p>
     </div>
-    <div>
+    <div class="face-card">
       <img src="images/Jennie.jpg" />
       <p>Jokey Jennie</p>
     </div>
-    <img src="images/Holly.jpg" />
-    <p>Unknown introvert</p>
-    <div>
-      <img src="images/Chris.jpg" />
-      <p>Coo-coo Chris</p>
+    <div class="face-card">
+      <img src="images/Holly.jpg" />
+      <p>Unknown introvert</p>
+    </div>
+    <div class="face-card best-card">
+      <img src="images/chris-framed.jpg" />
+      <p>Coo-coo Chris BEST FACE OF THE WEEK</p>
     </div>
   </body>
 </html>
